@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 48,
+	"VersionName": "10.10",
+	"FriendlyName": "QuestEditor",
+	"Description": "A plugin to manage and create quests and dialogs for NPCs, with very dynamic and customizable features.",
+	"Category": "Quests",
+	"CreatedBy": "Alf",
+	"CreatedByURL": "https://www.youtube.com/channel/UCkQVJmcV-szXTIySHz4CILw?",
+	"DocsURL": "https://drive.google.com/file/d/1ygAWGMWdSXsBy9MCcTRnbxIitC1NEgge/view",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/b60ac0a5d2224b0c8ecebc14d4a1b178",
+	"SupportURL": "https://discord.gg/WmQ3pDR",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "QuestEditor",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "QuestEditorDev",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
